@@ -1,0 +1,8 @@
+$ORIGIN .
+$TTL 60
+10.in-addr.arpa		IN	SOA	ns1.testcase.lan root.testcase.lan ( 1 180 60 3600 60 )
+10.in-addr.arpa		IN	NS	ns1.testcase.lan
+1.0.0.10.in-addr.arpa.	IN	PTR	ns1.testcasel.lan.
+2.0.0.10.in-addr.arpa.	IN	PTR	host.testcasel.lan.
+3.0.0.10.in-addr.arpa.	IN	PTR	sub.host.testcasel.lan.
+

@@ -1,0 +1,11 @@
+zone "testcase.lan" {
+	type master;
+	file "/zones/testcase.lan";
+};
+
+zone "10.in-addr.arpa" {
+	type master;
+	file "/zones/10.in-addr.arpa";
+};
+
+

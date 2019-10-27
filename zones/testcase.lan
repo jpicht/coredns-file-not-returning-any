@@ -1,0 +1,7 @@
+$ORIGIN .
+$TTL 60
+testcase.lan		IN	SOA	ns1.testcase.lan root.testcase.lan ( 1 180 60 3600 60 )
+testcase.lan		IN	NS	ns1.testcase.lan
+ns1.testcase.lan.	IN	A	10.0.0.1
+host.testcase.lan.	IN	A	10.0.0.2
+sub.host.testcase.lan.	IN	A	10.0.0.3
